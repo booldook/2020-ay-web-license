@@ -1,0 +1,114 @@
+html, body {
+	font-size: 16px;
+	color: #333;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: #303030;
+}
+a:link, a:visited, a:active {
+	color: inherit;
+	text-decoration: none;
+}
+div, ul, li, span, img {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img {
+	vertical-align: bottom;
+}
+.wrapper {
+	width: 1000px;
+	height: 1100px;
+	margin: 0 auto;
+}
+.header {
+	width: 1000px;
+	height: 150px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.navi-wrap {
+	width: 450px;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	color: #fff;
+}
+.logo img {
+	width: 200px;
+}
+.navi {
+	width: 150px; 
+	text-align: center; 
+	position: relative;
+	height:40px;
+}
+.navi > ul {
+	position: absolute;
+	z-index: 999;
+	width: 100%;
+	top: 40px;
+	left: 0;
+	background-color: #fff;
+	display: none;
+	color: #333;
+}
+.navi li {
+	padding: 16px;
+	transition: all 0.5s;
+}
+
+.navi li:hover {
+	background-color: aquamarine;
+	color: white;
+}
+
+.banner{
+	width: 1000px;
+	height: 350px;
+	overflow: hidden;
+	position: relative;
+}
+.slides {
+	width: 3000px; 
+	height: 350px;
+	position: absolute;
+	display: flex;
+}
+.slide {
+	width: 1000px;
+	height: 350px;
+}
+
+.slogan {
+	width: 300px;
+	height: 120px;
+	text-align: center;
+	background-color: rgba(0,0,0, 0.5);
+	color: #fff;
+	border-radius: 20px;
+	position: absolute;
+	top: calc(50% - 60px);
+	left: calc(50% - 150px);
+	border: 5px solid rgba(255,255,255, 0.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
