@@ -83,3 +83,8 @@ a:link, a:hover, a:visited, a:active {
 .header3 .navi-wrap {position: absolute; width: 100%; background-color: khaki; display: none;}
 .header3 .subs > div {display: flex; justify-content: flex-end;}
 .header3 .navi-wrap .sub {width: 150px; }
+
+.banner {position: relative; width: 1000px; height: 350px;}
+.ban {position: absolute; width: 1000px; height: 350px;}
+.bts {position: absolute; width: 100%; bottom: 10px; text-align: center;}
+.ban:nth-child(2),.ban:nth-child(3) {display: none;} 
