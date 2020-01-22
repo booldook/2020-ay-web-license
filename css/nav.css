@@ -1,0 +1,85 @@
+html, body {
+	font-size: 16px;
+	color: #232323;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div, ul, li, span, img, table, tr, td, th {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+img {
+	vertical-align: bottom;
+}
+
+a:link, a:hover, a:visited, a:active {
+	text-decoration: none;
+	color: inherit;
+}
+
+.clear:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.wrapper {
+	width: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+.header, .header2{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo > img {width: 200px;}
+
+/* 1번 네비 */
+.header .navi-wrap {
+	width: 450px;
+	display: flex;
+}
+
+.header .navi {
+	width: 150px;
+	position: relative;
+	text-align: center;
+}
+.header .navi > div {height: 40px; line-height: 40px;}
+.header .navi > ul {position: absolute; width: 100%; top: 40px; z-index: 999; display: none;}
+.header .navi li {height: 40px; line-height: 40px;}
+
+
+/* 2번 네비 */
+.header2 .navi-wrap {width: 450px; position: relative; text-align: center;}
+.header2 .navis {display: flex;}
+.header2 .navi {width: 150px; height: 40px; line-height: 40px;}
+.header2 .subs {width: 100%; position: absolute; top: 40px; display: none;}
+.header2 .sub {width: 150px; float: left;}
+.header2 .sub li {height: 40px; line-height: 40px;}
+
+/* 3번 네비 */
+.header3 {position: relative; text-align: center;}
+.header3 .top-wrap {display: flex; justify-content: space-between; height: 75px;}
+.header3 .navis {display: flex; border: 1px solid red;}
+.header3 .navi {width: 150px; height: 75px; line-height: 75px; border: 1px solid blue;}
+.header3 .navi-wrap {position: absolute; width: 100%; background-color: khaki; display: none;}
+.header3 .subs > div {display: flex; justify-content: flex-end;}
+.header3 .navi-wrap .sub {width: 150px; }
